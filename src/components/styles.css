@@ -1,0 +1,20 @@
+.box {
+  border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box.green {
+  background-color: green;
+}
+.box.smiley {
+  font-size: 2em;
+  cursor: not-allowed;
+  border: none;
+}
+.box:not(.smiley) {
+  cursor: pointer;
+}
+.grid {
+  background: #fff;
+}
